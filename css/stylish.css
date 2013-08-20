@@ -31,14 +31,20 @@ h3 {
 	text-align: justify;
 	font-family:'Josefin Slab';
 	padding:30px;
-	font-size: 125%
+	font-size: 125%;
+}
+h4 {
+	font-family:'Josefin Slab';
+	padding:30px;
+	font-size: 125%;
+	font-weight: 600;
 }
 p {
     text-align:center;
     padding:30px;
 }
 section {
-    height: 800px;
+    height: 1000px;
 	background-color: #00ccff;
     border: 10px solid #f6b33d;
     -moz-border-radius: 25px;
@@ -149,18 +155,25 @@ ul
     text-decoration:none;
     text-shadow:1px 1px 0px #cd8a15;
 }
-.linkme:hover {
+.linkme :hover {
     background-color:#d29105;
 }
-.linkme:active {
+.linkme :active {
     position:relative;
     top:1px;
+}
+#past#present#future {
+	float: left; 
+	width: 33%;
 }
 .drop {
 	background:#f6b33d;
 	width: 200px;
 	height: auto;
 	border: 2px solid #fff;
+	font-family:'Iceberg';
+    font-size: 100%;
+    font-weight:400;
 	-moz-box-shadow 5px 5px 5px #000;
     -webkit-box-shadow 5px 5px 5px  #000;
 	-o-box-shadow 5px 5px 5px #000;
